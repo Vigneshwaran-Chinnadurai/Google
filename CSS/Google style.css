@@ -1,0 +1,130 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/IMAGE/GOOGLE\ IMAGE.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.head {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.text {
+  display: flex;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86.5vh;
+  flex-direction: column;
+}
+h2 {
+  margin-bottom: 25px;
+  font-size: 110px;
+  color: white;
+}
+#textbox {
+  font-size: 16px;
+  width: 480px;
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+}
+#textbox::placeholder {
+  font-size: 16px;
+}
+#search {
+  font-size: 17px;
+  padding-left: 19px;
+}
+#mic{
+  font-size: 17px;
+  padding-right: 13px;
+}
+#camera{
+  font-size: 17px;
+  padding-right: 10px;
+}
+#searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px black 2px;
+  background-color: white;
+  padding: 5px 12px;
+  border-radius: 30px;
+  border: none;
+}
+.searchbar {
+  margin: 5px;
+  font-size: 17px;
+}
+i:hover {
+  cursor: pointer;
+}
+#shortcut {
+  margin: 9px;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(200, 200, 200, 0.832);
+  border-radius: 100%;
+}
+#shortcut:hover {
+  cursor: pointer;
+}
+#plus {
+  font-size: 29px;
+  margin: 22px 11px;
+}
+#p1 {
+  margin-left: 10px;
+  color: white;
+  width: 85px;
+}
+#p1:hover {
+  cursor: pointer;
+}
+.foot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  align-items: center;
+  border: 0px black solid;
+  border-radius: 19px;
+  margin-right: 10px;
+  padding: 5px 5px;
+  background-color: rgb(120, 120, 120);
+}
+#button:hover {
+  cursor: pointer;
+}
+.pen {
+  font-size: 12px;
+  color: white;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+#p2 {
+  margin-right: 19px;
+  color: white;
+  font-size: 12px;
+}
